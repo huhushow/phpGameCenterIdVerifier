@@ -1,0 +1,24 @@
+{
+    "name": "huhushow/gamecenter_id_verifier",
+    "description": "Third party Apple Game Center ID verification for PHP",
+    "require": {
+        "ext-openssl": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Henry Park",
+            "email": "huhushow@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Huhushow\\GameCenterIdVerifier\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Huhushow\\GameCenterIdVerifier\\Test\\": "tests"
+    }
+}
